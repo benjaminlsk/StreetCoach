@@ -1,0 +1,24 @@
+# Build artifacts
+*.jar
+*.war
+*.class
+target/
+
+# Secrets — use environment variables instead
+**/application-local.yml
+**/application-secret.yml
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+calisthenics-coach-ui/calisthenics-coach-ui/
+
+# OS
+.DS_Store
+Thumbs.db
